@@ -1,28 +1,28 @@
-# Moodie - Brainstorming
+# Bookie - Brainstorming
 
 ## 🧠 New App Ideas
 
-### 1. Mood Journal (Final Pick)
+### 1. Mood Journal  
 Users log how they feel each day using emojis or sliders and write a short reflection. Past entries are stored and can be reviewed to track emotional trends.
 
-### 2. Habit Tracker
+### 2. Habit Tracker  
 Users set daily habits (e.g., drink water, read) and check them off each day. App shows progress streaks and motivates habit building.
 
-### 3. Book/Show Watchlist
-Users add books or shows they want to watch/read. Mark as completed, rate them, and keep a personal media tracker.
+### 3. Book Readlist  
+Users add books they want to read. Mark as completed, rate them, and keep a personal media tracker.
 
-### 4. Budget Buddy
+### 4. Budget Buddy  
 Simple expense tracker where users input purchases and categorize them. Basic monthly spending summary included.
 
-### 5. Pet Care Reminder
+### 5. Pet Care Reminder  
 Users create a profile for their pet and get reminders for feeding, vet visits, grooming, etc.
 
-### 6. Event Organizer (Inspired by “Bubbly” Bot)
+### 6. Event Organizer (Inspired by “Bubbly” Bot)  
 Create, view, and manage events. Users can set a title, date, location, and reminder toggle. Great for small personal planning.
 
 ---
 
-## 🏆 Top 2 App Ideas
+## 🏆 Top 3 App Ideas
 
 ### 1. Mood Journal
 
@@ -48,9 +48,21 @@ Create, view, and manage events. Users can set a title, date, location, and remi
 
 ---
 
+### 3. Book/Show Watchlist
+
+| **Criteria** | **Evaluation** |
+|--------------|----------------|
+| **Mobile**   | List management, rating system, filters and sorting, persistent storage |
+| **Story**    | Helps users keep track of their reading/viewing goals and favorites |
+| **Market**   | Readers, binge-watchers, media enthusiasts |
+| **Habit**    | Encourages consistent engagement with media |
+| **Scope**    | Basic list features MVP, expandable with recommendations and notes |
+
+---
+
 ## ✅ Final App Choice
 
-**Mood Journal**  
-Working title: **Moodie**
+**Bookie**  
+Working title: **Bookie**
 
-Moodie is a minimal iOS app that allows users to log how they feel each day using emojis or sliders and short reflections. It stores past entries and encourages mindfulness through emotional tracking. Clean UI, meaningful purpose, and very achievable MVP.
+Bookie is an iOS app that lets users manage a personalized book readlist. Users can add items with details like title, author, status, notes, and favorites. It supports marking items as read, favoriting them, and tracking progress. The app offers a clean UI and core functionality focused on media tracking with potential for expansion.
