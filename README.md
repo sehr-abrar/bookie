@@ -1,4 +1,4 @@
-# Moodie
+# Bookie
 
 ## Table of Contents
 - [Overview](#overview)
@@ -11,16 +11,16 @@
 ## Overview
 
 ### Description
-**Moodie** is a lightweight mood journaling app that helps users reflect on their emotional well-being with daily check-ins. Users can log how they're feeling using emoji or sliders, add a short journal entry, and view previous logs to track their emotional trends over time. Moodie encourages mindfulness and self-awareness in a minimal, aesthetic experience.
+**Bookie** is a streamlined personal book tracking app designed to help users organize and manage their reading lists. Users can add books with details such as title, author, reading status (e.g., To Read, Reading, Completed), notes, and favorites. Bookie enables users to track their reading progress, rate books, and keep a clean, intuitive record of their reading habits — making it easier to stay motivated and discover patterns over time.
 
 ### App Evaluation
 
-- **Category:** Health & Wellness / Lifestyle  
-- **Mobile:** Uses persistent local storage (UserDefaults), emoji/sliders for mood input, and optionally push notifications and charts  
-- **Story:** Offers a simple, effective way to support mental health and daily mindfulness practices  
-- **Market:** Broad appeal for students, professionals, and anyone interested in journaling or mood tracking  
-- **Habit:** Designed to be a daily-use app, forming a reflection habit with low effort  
-- **Scope:** The MVP is simple to build (journal entry, storage, view past entries), with optional features to scale up later
+- **Category:** Productivity / Lifestyle / Book Tracking  
+- **Mobile:** Persistent local storage (e.g., UserDefaults or Core Data), interactive list management, rating system, filters and sorting  
+- **Story:** Provides a simple, elegant way for readers to track and reflect on their reading journeys  
+- **Market:** Appeals to book lovers, students, and anyone who wants to organize their personal reading lists  
+- **Habit:** Encourages regular updating and review of reading progress, supporting goal setting and habit formation  
+- **Scope:** MVP includes adding/removing books, updating status, notes, favorites, and rating, with room to expand to recommendations or social sharing
 
 ---
 
@@ -29,43 +29,37 @@
 ### 1. User Stories
 
 #### ✅ Required Must-have Stories
-- User can select their mood for the day (via emoji or slider)
-- User can write a short note about their day
-- User can save the entry and it persists across app launches
-- User can view a scrollable list of past mood entries
-- User can delete a mood entry
+- User can add a book with details (title, author, optional image, synopsis)
+- User can mark book status (To Read, Reading, Completed)
+- User can add notes or personal ratings to each book
+- User can mark/unmark favorites
+- User can view a scrollable list of all books
+- User can edit or delete a book entry
 
 #### ✨ Optional Nice-to-have Stories
-- User receives a daily reminder notification to log their mood
-- User sees a "quote of the day" on the home screen
-- User can view a visual summary (bar graph or calendar) of moods over time
-- User can protect their journal with a passcode lock
+- User can filter or sort the list by status, favorites, or rating
+- User can view statistics like number of books read or currently reading
+- User can get book recommendations based on current list (future feature)
+- User can export or back up their book list
+- User can receive reminders to continue reading
 
 ---
 
 ### 2. Screen Archetypes
 
 - **Home Screen**
-  - Shows welcome text and today's mood status
-  - Button to log today's mood
-  - Optional: Daily quote
+  - Overview of current reading status
+  - Quick access to add a new book
+  - Highlights favorites or recently updated books
 
-- **Add Entry Screen**
-  - Select mood via emoji/slider
-  - Text field for notes
-  - Save button
+- **Add/Edit Book Screen**
+  - Form for entering title, author, status, notes, and rating
+  - Save or cancel buttons
 
-- **Entries List Screen**
-  - Scrollable list of mood entries
-  - Each item shows date, mood emoji, and journal snippet
-  - Swipe to delete
-
-- **Stats Screen (Optional)**
-  - Visual summary of past moods using a chart or calendar
-
-- **Settings Screen (Optional)**
-  - Toggle for daily reminder
-  - Set or change passcode lock
+- **Book List Screen**
+  - Scrollable list of books
+  - Each item shows title, status, favorite icon, and rating
+  - Swipe to delete or edit
 
 ---
 
@@ -73,36 +67,23 @@
 
 #### Tab Navigation (Tab to Screen)
 - Home
-- Entries
-- Stats (optional)
-- Settings (optional)
+- Book List
 
 #### Flow Navigation (Screen to Screen)
 - Home Screen  
-  - ➡️ Add Entry Screen  
-  - ➡️ Entries List Screen  
-  - ➡️ Settings Screen (optional)
+  - ➡️ Add Book Screen  
+  - ➡️ Book List Screen  
 
-- Add Entry Screen  
-  - ➡️ Save ➡️ Back to Home or Entries  
+- Book List Screen  
+  - ➡️ Detail Screen (optional)  
+  - ➡️ Edit Book Screen
 
-- Entries List  
-  - ➡️ Entry Detail (optional modal)
-
-- Stats Screen  
-  - No further navigation (optional screen)
+- Add/Edit Book Screen  
+  - ➡️ Save ➡️ Back to Home or Book List  
 
 ---
 
-## Digital nWireframes
+## Wireframes
 
----
-
-## Schema
-
-### Models
-
-### Networking
-
-(No external APIs required unless adding quote of the day. If using local notifications or chart libraries, no backend requests are needed.)
+*(Include your hand-drawn or digital wireframes here for each screen — Home, Add/Edit, List, Detail, Stats)*
 
