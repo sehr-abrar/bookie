@@ -36,7 +36,7 @@
 - User can edit or delete a book entry
 
 #### ✨ Optional Nice-to-have Stories
-- User can filter or sort the list by status, favorites, or rating
+- User can filter or sort the list by status or favorites
 - User can view statistics like number of books read or currently reading
 - User can get book recommendations based on current list (future feature)
 - User can export or back up their book list
