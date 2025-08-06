@@ -4,7 +4,6 @@
 - [Overview](#overview)
 - [Product Spec](#product-spec)
 - [Wireframes](#wireframes)
-- [Schema](#schema)
 
 ---
 
@@ -87,3 +86,8 @@
 
 Lo-Fi wireframes can be found [here](https://www.figma.com/design/Nwt05poG5B7ORKuaYSl76o/Untitled?node-id=0-1&t=KOHURlkRhEFCCe1k-1).
 
+---
+
+## Sprint Video 
+
+[YouTube Walkthrough](https://youtube.com/shorts/OtBm11uGMG8?feature=share)
