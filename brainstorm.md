@@ -48,11 +48,11 @@ Create, view, and manage events. Users can set a title, date, location, and remi
 
 ---
 
-### 3. Book/Show Watchlist
+### 3. Book Readlist
 
 | **Criteria** | **Evaluation** |
 |--------------|----------------|
-| **Mobile**   | List management, rating system, filters and sorting, persistent storage |
+| **Mobile**   | List management, filters and sorting, persistent storage |
 | **Story**    | Helps users keep track of their reading/viewing goals and favorites |
 | **Market**   | Readers, binge-watchers, media enthusiasts |
 | **Habit**    | Encourages consistent engagement with media |
