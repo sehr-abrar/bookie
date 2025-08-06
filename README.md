@@ -28,19 +28,19 @@
 ### 1. User Stories
 
 #### ✅ Required Must-have Stories
-- User can add a book with details (title, author, optional image, synopsis)
-- User can mark book status (To Read, Reading, Completed)
-- User can add notes or personal ratings to each book
-- User can mark/unmark favorites
-- User can view a scrollable list of all books
-- User can edit or delete a book entry
+- [x] User can add a book with details (title, author, optional image, synopsis)
+- [x] User can mark book status (To Read, Reading, Completed)
+- [x] User can add notes or personal ratings to each book
+- [x] User can mark/unmark favorites
+- [x] User can view a scrollable list of all books
+- [x] User can edit or delete a book entry
 
 #### ✨ Optional Nice-to-have Stories
-- User can filter or sort the list by status or favorites
-- User can view statistics like number of books read or currently reading
-- User can get book recommendations based on current list (future feature)
-- User can export or back up their book list
-- User can receive reminders to continue reading
+- [x] User can filter or sort the list by status or favorites
+- [ ] User can view statistics like number of books read or currently reading
+- [ ] User can get book recommendations based on current list (future feature)
+- [ ] User can export or back up their book list
+- [ ] User can receive reminders to continue reading
 
 ---
 
