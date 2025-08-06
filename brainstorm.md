@@ -17,7 +17,7 @@ Simple expense tracker where users input purchases and categorize them. Basic mo
 ### 5. Pet Care Reminder  
 Users create a profile for their pet and get reminders for feeding, vet visits, grooming, etc.
 
-### 6. Event Organizer (Inspired by “Bubbly” Bot)  
+### 6. Event Organizer
 Create, view, and manage events. Users can set a title, date, location, and reminder toggle. Great for small personal planning.
 
 ---
