@@ -28,7 +28,7 @@
 ### 1. User Stories
 
 #### ✅ Required Must-have Stories
-- [x] User can add a book with details (title, author, optional image, synopsis)
+- [x] User can add a book with details (title & author)
 - [x] User can mark book status (To Read, Reading, Completed)
 - [x] User can add notes or personal ratings to each book
 - [x] User can mark/unmark favorites
@@ -37,10 +37,8 @@
 
 #### ✨ Optional Nice-to-have Stories
 - [x] User can filter or sort the list by status or favorites
-- [ ] User can view statistics like number of books read or currently reading
-- [ ] User can get book recommendations based on current list (future feature)
-- [ ] User can export or back up their book list
-- [ ] User can receive reminders to continue reading
+- [x] User can search for a book by title or author
+- [x] User can find the books are saved even after closing the app
 
 ---
 
@@ -78,7 +76,11 @@
   - ➡️ Edit Book Screen
 
 - Add/Edit Book Screen  
-  - ➡️ Save ➡️ Back to Home or Book List  
+  - ➡️ Save ➡️ Back to Home or Book List
+
+- Explore Screen  
+  - ➡️ Add Explore Screen  
+  - ➡️ Explore List Screen 
 
 ---
 
@@ -90,4 +92,4 @@ Lo-Fi wireframes can be found [here](https://www.figma.com/design/Nwt05poG5B7ORK
 
 ## Sprint Video 
 
-[YouTube Walkthrough](https://youtube.com/shorts/OtBm11uGMG8?feature=share)
+[YouTube Walkthrough](https://youtube.com/shorts/bGmS9S3M1To?feature=share)
